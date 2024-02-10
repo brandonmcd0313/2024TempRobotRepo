@@ -60,8 +60,6 @@ m_drivetrain.setDefaultCommand(
             -MathUtil.applyDeadband(m_driverController.getZ(), OIConstants.kDriveDeadband)* OIConstants.kSpeedMultiplier, // Turning
             false, true),
         m_drivetrain));
-
-   
   }
 
   /**
